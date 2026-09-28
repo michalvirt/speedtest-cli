@@ -105,5 +105,3 @@ When paired with `speedtest-dashboard`, both containers share the `speedtest-dat
 
 - `speedtest-cli` writes `.json` files to `/usr/local/speedtest-data`.
 - `speedtest-dashboard` reads `.json` files from `/app/data` (read-only).
-
-See the [top-level `docker-compose.yml`](../docker-compose.yml) to launch both services simultaneously.
